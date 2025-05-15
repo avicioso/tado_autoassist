@@ -82,6 +82,9 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## 🔄 Acknowledgements
 
-This script contains code taken from the original [Tado Auto-Assist for Geofencing and Open Window Detection + Temperature Limit](https://github.com/mzettwitz/tado_aa_geo) by [Adrian Slabu](mailto:adrianslabu@icloud.com), created on 11.02.2021.
+This script contains code derived from the original [Tado Auto-Assist for Geofencing and Open Window Detection + Temperature Limit](https://github.com/adrianslabu/tado_aa) by [Adrian Slabu](mailto:adrianslabu@icloud.com), first created on 11.02.2021.
 
-The original script is licensed under the GPLv3 License. Please refer to the original repository for more information.
+The original script is licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).  
+Please refer to the original repository for full details and credits.
+
+This version includes significant improvements such as Docker support, unit tests, and code refactoring.
