@@ -45,7 +45,7 @@ Set the following environment variables as needed:
 - `SAVE_LOG`: If enabled, saves logs to a file. (Default: `false`).
 - `LOG_FILE`: Path to the log file. (Default: `logfile.log`).
 - `MAX_LOG_LINES`: Maximum number of log lines. (Default: `50`).
-- `TOKEN_FOLDER`: Folder to store the authentication token. (Default: `./token`).
+- `TOKEN_FOLDER`: Folder to store the authentication token. (Default: `/var/tado`).
 
 ### Example `.env`
 
@@ -58,7 +58,7 @@ ENABLE_TEMP_LIMIT=true
 SAVE_LOG=true
 LOG_FILE=logfile.log
 MAX_LOG_LINES=50
-TOKEN_FOLDER=./token
+TOKEN_FOLDER=/var/tado
 ```
 
 ## 🔑 Authentication
