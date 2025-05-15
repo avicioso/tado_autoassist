@@ -18,7 +18,7 @@ SAVE_LOG = str_to_bool(os.environ.get("SAVE_LOG", "false"))
 LOG_FILE = os.environ.get("LOG_FILE", "logfile.log")
 MAX_LOG_LINES = int(os.environ.get("MAX_LOG_LINES", 50))
 
-TOKEN_FOLDER = Path(os.environ.get("TOKEN_FOLDER", "./token"))
+TOKEN_FOLDER = Path(os.environ.get("TOKEN_FOLDER", "/var/tado"))
 TOKEN_FOLDER.mkdir(parents=True, exist_ok=True)
 TOKEN_FILE = TOKEN_FOLDER / "token"
 

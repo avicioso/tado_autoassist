@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  tado_autoassist:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - /Users/avicioso/Documents/tado_autoassist/token:/var/tado
+    environment:
+      CHECKING_INTERVAL: 10
+      ERROR_RETRY_INTERVAL: 30
+      MIN_TEMP: 5
+      MAX_TEMP: 25
+      ENABLE_TEMP_LIMIT: "true"
+      SAVE_LOG: "false"
+      LOG_FILE: "logfile.log"
+      TOKEN_FOLDER: /var/tado
+    restart: unless-stopped
