@@ -6,7 +6,7 @@ services:
       context: ..
       dockerfile: docker/Dockerfile
     volumes:
-      - /Users/adrianviciosomatrat/Documents/programacion/tado_free_autoassist/token:/var/tado
+      - /Users/avicioso/Documents/tado_autoassist/token:/var/tado
     environment:
       # Puedes definir aquí tus variables de entorno si quieres
       CHECKING_INTERVAL: 10
