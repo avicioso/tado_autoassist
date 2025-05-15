@@ -45,7 +45,7 @@ Set the following environment variables as needed:
 - `SAVE_LOG`: If enabled, saves logs to a file. (Default: `false`).
 - `LOG_FILE`: Path to the log file. (Default: `logfile.log`).
 - `MAX_LOG_LINES`: Maximum number of log lines. (Default: `50`).
-- `TOKEN_FOLDER`: Folder to store the authentication token. (Default: `./token`).
+- `TOKEN_FOLDER`: Folder to store the authentication token. (Default: `/var/tado`).
 
 ### Example `.env`
 
@@ -58,7 +58,7 @@ ENABLE_TEMP_LIMIT=true
 SAVE_LOG=true
 LOG_FILE=logfile.log
 MAX_LOG_LINES=50
-TOKEN_FOLDER=./token
+TOKEN_FOLDER=/var/tado
 ```
 
 ## 🔑 Authentication
@@ -77,10 +77,11 @@ To connect to the Tado API, a token file is required. If the file does not exist
 
 ## 📚 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).  
+See the [LICENSE](LICENSE) file for full details.
 
 ## 🔄 Acknowledgements
 
 This script contains code taken from the original [Tado Auto-Assist for Geofencing and Open Window Detection + Temperature Limit](https://github.com/mzettwitz/tado_aa_geo) by [Adrian Slabu](mailto:adrianslabu@icloud.com), created on 11.02.2021.
 
-The original script is licensed under the MIT License. Please refer to the original repository for more information.
+The original script is licensed under the GPLv3 License. Please refer to the original repository for more information.
