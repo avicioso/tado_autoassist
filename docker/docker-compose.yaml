@@ -8,7 +8,6 @@ services:
     volumes:
       - /Users/avicioso/Documents/tado_autoassist/token:/var/tado
     environment:
-      # Puedes definir aquí tus variables de entorno si quieres
       CHECKING_INTERVAL: 10
       ERROR_RETRY_INTERVAL: 30
       MIN_TEMP: 5

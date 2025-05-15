@@ -1,4 +1,4 @@
-# Pull official GDAL image with Python 3.12
+# Pull official image with Python 3.11.12 slim
 FROM python:3.11.12-slim
 # Install UV
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
@@ -12,7 +12,7 @@ WORKDIR /src
 
 COPY src /src
 
-# Copy the dependency files (pyproject.toml and uv.lock) from steps/s3-uploader
+# Copy the dependency files (pyproject.toml and uv.lock)
 COPY pyproject.toml /src/
 COPY uv.lock /src/
 
