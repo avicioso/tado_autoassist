@@ -77,7 +77,8 @@ To connect to the Tado API, a token file is required. If the file does not exist
 
 ## 📚 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).  
+See the [LICENSE](LICENSE) file for full details.
 
 ## 🔄 Acknowledgements
 
