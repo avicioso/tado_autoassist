@@ -1,9 +1,14 @@
 [project]
-name = "tado-free-autoassist"
+name = "tado-autoassist"
 version = "0.1.0"
 description = "A script to monitor and manage the Tado home system, including device presence and zone temperature regulation."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "python-tado==0.19.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
 ]

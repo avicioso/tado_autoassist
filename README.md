@@ -16,7 +16,7 @@
 
 ## 🛠 Requirements
 
-- **Python 3.7+**
+- **Python 3.11+**
 - **PyTado**: To interact with the Tado API (check the appropriate version in `pyproject.toml`).
 
 ## 🔧 Installation
