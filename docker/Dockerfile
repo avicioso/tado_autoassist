@@ -10,7 +10,7 @@ ENV PYTHONUNBUFFERED 1
 # Set the working directory
 WORKDIR /src
 
-COPY /src /src
+COPY src /src
 
 # Copy the dependency files (pyproject.toml and uv.lock) from steps/s3-uploader
 COPY pyproject.toml /src/
